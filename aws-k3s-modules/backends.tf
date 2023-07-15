@@ -5,6 +5,10 @@ terraform {
     organization = "simon-ltd"
 
     workspaces {
+      name = "prod"
+    }
+
+    workspaces { 
       name = "dev"
     }
   }
