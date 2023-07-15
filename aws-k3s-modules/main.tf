@@ -49,7 +49,7 @@ module "compute" {
   public_sg           = module.networking.vpc_public_security_group_ids
   public_subnets      = module.networking.lb_public_subnets
   vol_size            = 10
-  key_name            = "my_tf_key"
+  key_name            = "my_key"
   user_data_path      = "${path.root}/userdata.tpl"
   db_endpoint         = module.database.db_endpoint
   db_name             = var.db_name

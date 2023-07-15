@@ -2,7 +2,7 @@
 
 terraform {
   cloud {
-    organization = "simon-xaas"
+    organization = "simon-ltd"
 
     workspaces {
       name = "dev"
